@@ -1,6 +1,8 @@
 <?php
 
-$folders = glob( __DIR__ . '\*' , GLOB_ONLYDIR);
+require_once __DIR__ . '/phpfastcache/phpfastcache.php';
+
+$folders = glob( __DIR__ . '\functions\*' , GLOB_ONLYDIR);
 
 foreach($folders as $folder) {
     $files = glob( $folder . '/*.php');
