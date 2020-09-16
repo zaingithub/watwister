@@ -1,2 +1,1 @@
-# watwister
-WhatsApp Rotator
+# masteragc

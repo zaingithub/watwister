@@ -1,0 +1,21 @@
+{
+    "name": "zaingithub/watwister",
+    "description": "Function WA Twister & WhatsApp Rotator Plus",
+    "type": "library",
+	"homepage": "https://github.com/zaingithub/watwister",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Masterzain",
+            "email": "zai.ads008@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "files": [
+            "src/autoload.php"
+        ]
+    }
+}
